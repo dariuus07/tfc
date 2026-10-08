@@ -1,0 +1,25 @@
+# terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfplan
+crash.log
+crash.*.log
+
+# variables propias (solo subo la plantilla)
+*.tfvars
+!terraform.tfvars.example
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

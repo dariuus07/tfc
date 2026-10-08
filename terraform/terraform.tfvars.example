@@ -1,0 +1,5 @@
+# aqui dejo un ejemplo de los valores de las variables, sin datos reales.
+# esto se copia a terraform.tfvars (que no subo al repo) y se rellena.
+# tengo que poner al menos:
+# - admin_cidr con mi ip publica en /32.
+# - y si quiero cambiar los valores por defecto: region, zona, nombre del proyecto y los cidr.
